@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - ABC Fitness Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-area">
+        <img src="images/logo.png" alt="ABC Fitness Studio logo" />
+        <div>
+          <h1>ABC</h1>
+          <p>FITNESS STUDIO</p>
+        </div>
+      </div>
+
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="testimonials.html">Testimonials</a>
+      </nav>
+
+      <div class="menu-icon" id="openMenu">☰</div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-icon" id="closeMenu">×</div>
+
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About Us</a>
+      <a href="testimonials.html">Testimonials</a>
+    </div>
+
+    <main>
+      <section class="about-intro">
+        <div class="about-text">
+          <h2>About Us</h2>
+
+          <p>
+            At ABC Fitness Studio, we believe fitness is more than a
+            workout—it's a lifestyle. Our mission is to empower you to build
+            strength, improve your health, and achieve your goals in a
+            supportive community.
+          </p>
+
+          <p>
+            With expert trainers, state-of-the-art facilities, and a wide range
+            of classes, we’re here to help you become the best version of
+            yourself.
+          </p>
+        </div>
+
+        <img src="images/about-gym.jpg" alt="ABC Fitness Studio gym" />
+      </section>
+
+      <section class="hours-section">
+        <h2>Business Hours</h2>
+
+        <table>
+          <tr>
+            <th>Day</th>
+            <th>Hours</th>
+          </tr>
+
+          <tr>
+            <td>Monday</td>
+            <td>9:00 AM - 6:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Tuesday</td>
+            <td>9:00 AM - 6:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Wednesday</td>
+            <td>9:00 AM - 6:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Thursday</td>
+            <td>9:00 AM - 8:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Friday</td>
+            <td>9:00 AM - 6:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Saturday</td>
+            <td>10:00 AM - 2:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Sunday</td>
+            <td>Closed</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="contact-area">
+        <div class="form-box">
+          <h2>Contact / Feedback / Custom Order</h2>
+
+          <form id="feedbackForm">
+            <label for="nameInput">Name</label>
+            <input
+              type="text"
+              id="nameInput"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="formEmail">Email Address</label>
+            <input
+              type="email"
+              id="formEmail"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="phoneInput">Phone Number</label>
+            <input
+              type="text"
+              id="phoneInput"
+              placeholder="Enter your phone number"
+              required
+            />
+
+            <label for="subjectInput">Subject</label>
+            <input
+              type="text"
+              id="subjectInput"
+              placeholder="Enter subject"
+              required
+            />
+
+            <label for="messageInput">Message / Order Details</label>
+            <textarea
+              id="messageInput"
+              placeholder="Enter your message or order details"
+              required
+            ></textarea>
+
+            <div class="check-row">
+              <input type="checkbox" id="customOrder" />
+              <label for="customOrder">Custom Order</label>
+            </div>
+
+            <div class="form-buttons">
+              <button type="submit" id="submitFormBtn">Submit</button>
+              <button type="reset" class="clear-btn">Clear Form</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h2>Contact Info</h2>
+
+          <div class="info-row">
+            <span>📍</span>
+            <p>123 Fitness Way<br />Healthy City, HC 12345</p>
+          </div>
+
+          <div class="info-row">
+            <span>☎</span>
+            <p>(123) 456-7890</p>
+          </div>
+
+          <div class="info-row">
+            <span>✉</span>
+            <p>info@abcfitnessstudio.com</p>
+          </div>
+
+          <div class="info-row">
+            <span>🕒</span>
+            <p>Mon - Fri: 6:00 AM - 9:00 PM<br />Sat: 8:00 AM - 4:00 PM</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-main">
+        <div class="footer-section">
+          <h3>Join Our Newsletter</h3>
+
+          <form id="newsletterForm">
+            <input
+              type="email"
+              id="emailBox"
+              placeholder="Enter your email address"
+              required
+            />
+
+            <button type="submit" id="subscribeBtn">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="socials">
+            <span>f</span>
+            <span>◎</span>
+            <span>▶</span>
+            <span>♪</span>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <div class="quick-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About Us</a>
+            <a href="testimonials.html">Testimonials</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">© 2024 ABC Fitness Studio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
